@@ -31,3 +31,5 @@ Front-End UI for StudentAPI project for CRUD. API repo called Student
 ### Steps that had to be done first
 1. Install Angular CLI: `npm install -g @angular/cli`
 2. Go to project folder and create new angular project `ng new angular12`
+
+**2/23/2025 Update @ 2:17 PM CST** - Cannot get Angular to install. Cannot change the environment variables to allow "ng". Was only able to add "npm" to the local variable and not global. Angular is required for the BDS.
