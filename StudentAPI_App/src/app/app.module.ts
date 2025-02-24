@@ -11,8 +11,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { SharedService } from './shared.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DepartmentComponent } from './department/department.component';
-import { ShowDepComponent } from './department/show-department/show-department.component';
-import { AddEditDepComponent } from './department/add-edit-department/add-edit-department.component';
+import { ShowDepartmentComponent } from './department/show-department/show-department.component';
+import { AddEditDepartmentComponent } from './department/add-edit-department/add-edit-department.component';
 
 @NgModule({
     declarations: [
@@ -21,7 +21,8 @@ import { AddEditDepComponent } from './department/add-edit-department/add-edit-d
       ShowStudentComponent,
       AddEditStudentComponent,
       DepartmentComponent,
-      ShowDepartmentComponent
+      ShowDepartmentComponent,
+      AddEditDepartmentComponent
     ],
     imports: [
       BrowserModule,

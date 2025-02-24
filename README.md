@@ -33,3 +33,8 @@ Front-End UI for StudentAPI project for CRUD. API repo called Student
 2. Go to project folder and create new angular project `ng new angular12`
 
 **2/23/2025 Update @ 2:17 PM CST** - Cannot get Angular to install. Cannot change the environment variables to allow "ng". Was only able to add "npm" to the local variable and not global. Angular is required for the BDS.
+<br>
+
+## To Know
+1. `app.routes.ts`: This file is often used to define the routes array. It contains the route definitions and is usually imported into a routing module.
+2. `app.routing.ts`: This file is often used to define the routing module itself. It imports the routes array and sets up the RouterModule.
